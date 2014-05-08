@@ -25,8 +25,8 @@ public class WallManager : MonoBehaviour
 
 
 
-		for (int i=0; i<numberOfWalls; i++) 
-		{
+//		for (int i=0; i<numberOfWalls; i++) 
+//		{
 			//wall.Add(Resources.Load ("Prefabs/Stage" + randomWall) as GameObject);
 
 			/*
@@ -40,8 +40,8 @@ public class WallManager : MonoBehaviour
 			b.transform.position = tempPos;
 			b.transform.parent = gameObject.transform;
 			wall.Add(b);
-
-		}
+*/
+//		}
 	}
 	// Update is called once per frame
 	void Update () {
@@ -67,8 +67,8 @@ public class WallManager : MonoBehaviour
 			b.transform.position = tempPos;
 			b.transform.parent = gameObject.transform;
 			wall.Add(b);
-			//randomWall = Random.Range (1, 4);*/
-		}
+			//randomWall = Random.Range (1, 4);
+			 }*/
 
 
 		Vector3 tempPos = new Vector3();
@@ -80,7 +80,7 @@ public class WallManager : MonoBehaviour
 		wall[0].
 		b.transform.position = tempPos;
 		b.transform.parent = gameObject.transform;
-		wall.
 		//transform.Translate (new Vector2 (movement * Time.deltaTime, 0));
+	}
 	}
 }
